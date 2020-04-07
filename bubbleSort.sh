@@ -1,7 +1,7 @@
 arr=(5 9 8 12 2) 
 echo "unsorted array: ${arr[*]}" 
 
-for ((i=0; i<5; i++)) 
+for ((i=0; i<5-1; i++)) 
 do
 	for((j=i; j<5-i-1; j++)) 
 	do
